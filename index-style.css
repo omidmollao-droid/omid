@@ -17,7 +17,7 @@ body{
 header{
     width: 100%;
     height: 33rem;
-    background-image: url("image/der-wahre-preis-des-burgers-100~1280x720.avif");
+    background-image: url("der-wahre-preis-des-burgers-100~1280x720.avif");
     background-size: cover;
     
 }
@@ -26,7 +26,7 @@ main{
     margin: -1.4rem 0 0 0;
     width: 100%;
     height: auto;
-    background-image: url("image/banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
+    background-image: url("banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ main{
 footer{
     width: 100%;
     height: auto;
-    background-image: url("image/footerback.png");
+    background-image: url("footerback.png");
     background-size: cover;
     color: white;
 }
