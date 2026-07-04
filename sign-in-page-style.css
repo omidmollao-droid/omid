@@ -1,0 +1,229 @@
+@font-face {
+    font-family: yekan;
+    src: url("font/yekan-font/yekan-regular.eot") format("eot"),
+    url("font/yekan-font/yekan-regular.ttf") format("ttf"),
+    url("font/yekan-font/yekan-regular.woff") format("woff");
+}
+
+body{
+    font-family: yekan;
+    background-image: url("image/banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    direction: ltr;
+    display: grid;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+.header-option{
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-option a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    transition: .4s ease-in-out;
+}
+
+.header-option a:hover{
+    transition: .4s;
+    background-color: rgb(238, 238, 238);
+    color: #000;
+}
+
+.sign-in{
+    width: 100%;
+    height: auto;
+    direction: rtl;
+    display: inline-flex;
+}
+
+.create-new{
+    width: 30%;
+    height: auto;
+    direction: rtl;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: 1rem 0 0 -18rem;
+    color: white;
+    z-index: 99;
+}
+
+.create-new label{
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.create-new input{
+    width: 18rem;
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+    font-family: yekan;
+    padding-inline: 15px;
+}
+
+.accept{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0 5px;
+}
+
+.accept input{
+    width: 1.2rem;
+}
+
+#create{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: yekan;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 5px 0 12px;
+    cursor: pointer;
+}
+
+#switch-page{
+    width: 30%;
+    height: 81%;
+    background-image: url("image/footerback.png");
+    color: white;
+    border-radius: 12px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    z-index: 100;
+    margin: 1rem 18rem 0 0;
+    transition: right .4s ease-in-out;
+}
+
+#switch-page p{
+    padding: 20px;
+}
+
+#switch{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    color: white;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+#switch:hover{
+    transition: .4s ease-in-out;
+    background-color: rgb(238, 238, 238);
+    color: #000;
+}
+
+.login{
+    width: 30%;
+    height: auto;
+    direction: rtl;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin: 1rem 18rem 0 0;
+    color: white;
+    z-index: 99;
+}
+
+.login label{
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.login input{
+    width: 18rem;
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+    font-family: yekan;
+    padding-inline: 15px;
+}
+
+#enter,
+#create{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: yekan;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 1.2rem 0 20px;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+#enter,
+#create:hover{
+    background-color: white;
+    transition: .4s ease-in-out;
+}
+
+#switch-page-title,
+#text{
+    transition: .4s ease-in-out;
+}

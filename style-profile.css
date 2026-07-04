@@ -1,0 +1,134 @@
+@font-face {
+    font-family: yekan;
+    src: url("font/yekan-font/yekan-regular.eot") format("eot"),
+    url("font/yekan-font/yekan-regular.ttf") format("ttf"),
+    url("font/yekan-font/yekan-regular.woff") format("woff");
+}
+
+body{
+    font-family: yekan;
+    background-image: url("image/banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    direction: rtl;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.header-option{
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-option a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    transition: .4s ease-in-out;
+}
+
+.header-option a:hover{
+    transition: .4s;
+    background-color: rgb(238, 238, 238);
+    color: #000;
+}
+
+.info-title{
+    width: 80%;
+    height: auto;
+    background-image: url("image/footerback.png");
+    background-size: 100%;
+    color: white;
+    border-radius: 12px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 10% .5rem 0;
+}
+
+.info-title h1{
+    padding: 8px;
+    margin: 0;
+}
+
+.details{
+    width: 80%;
+    height: auto;
+    background-image: url("image/footerback.png");
+    background-size: 100%;
+    margin:12px 10% .5rem 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+.info{
+    width: 18rem;
+    height: auto;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.info p{
+    padding: 5px;
+    margin: 0;
+}
+
+.user-info{
+    width: 18rem;
+    height: auto;
+    background-color: blue;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn{
+    width: 94%;
+    height: 2.5rem;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-family: yekan;
+    background-color: #74747475;
+    backdrop-filter: blur(2px);
+    color: white;
+    margin: 0 0 1rem 0;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}

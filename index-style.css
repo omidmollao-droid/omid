@@ -1,0 +1,382 @@
+@font-face{
+    font-family: yekan;
+    src: url("font/yekan-font/yekan-regular.eot") format("eot"),
+    url("font/yekan-font/yekan-regular.ttf") format("ttf"),
+    url("font/yekan-font/yekan-regular.woff") format("woff");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: yekan;
+}
+
+header{
+    width: 100%;
+    height: 33rem;
+    background-image: url("image/der-wahre-preis-des-burgers-100~1280x720.avif");
+    background-size: cover;
+    
+}
+
+main{
+    margin: -1.4rem 0 0 0;
+    width: 100%;
+    height: auto;
+    background-image: url("image/banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url("image/footerback.png");
+    background-size: cover;
+    color: white;
+}
+
+.logo{
+    width: 52%;
+    height: auto;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin: 5rem 0 0 0;
+}
+
+#logo-picture{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 12px;
+}
+
+.header-option{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+.header-option a{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 8px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    transition: .4s;
+    color: white;
+    text-decoration: none;
+}
+
+.header-option a:hover{
+    transition: .4s;
+    background-color: white;
+    color: black;
+}
+
+.search{
+    width: 67.3%;
+    height: auto;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: -3rem 0 4rem 0;
+}
+
+#search-bar{
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    outline: none;
+    padding-inline: 15px;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(12px);
+    color: white;
+    direction: rtl;
+    font-family: yekan;
+}
+
+#search-bar::placeholder{
+    color: white;
+}
+
+.search-btn{
+    width: 5rem;
+    height: 2.1rem;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border: none;
+    background-color: rgb(0, 152, 253);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-text{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    color: white;
+    padding: 3.5rem 0 0 0;
+    font-size: 3.5rem;
+}
+
+#intro-text h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#fast-food-part{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0 8rem 0;
+}
+
+.fast-food-box{
+    width: 20rem;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(12px);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-box{
+    width: 18rem;
+    height: auto;
+    margin: 10px 10px 0 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: .2s ease-in-out;
+    object-fit: cover;
+    display: block;
+}
+
+.img:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.image-box a{
+    border-radius: 12px;
+}
+
+.food-info{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.food-info p{
+    padding: 18px;
+    direction: rtl;
+}
+
+.food-info h1{
+    margin: 0;
+}
+
+.enter-btn{
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: yekan;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    margin: 0 0 1.5rem 0;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.enter-btn:hover{
+    transition: .4s;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.footer-title{
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    direction: rtl;
+    width: 95%;
+    height: auto;
+}
+
+.footer-title hr{
+    width: 80%;
+}
+
+.comment-box{
+    width: 36%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#comment{
+    width: 25rem;
+    height: 8rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    color: white;
+    font-family: yekan;
+    padding: 10px;
+    direction: rtl;
+}
+
+#comment::placeholder{
+    color: white;
+}
+
+.email-pass{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.email-pass input{
+    width: 11.6rem;
+    height: 1rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    color: white;
+    font-family: yekan;
+    padding: 10px;
+    direction: rtl;
+}
+
+.email-pass input::placeholder{
+    color: white;
+}
+
+#submit{
+    width: 26.4rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-family: yekan;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transition: .4s;
+    background-color: white;
+    color: black;
+}
+
+.contact-us{
+    width: 18%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+.contact-us p{
+    padding: 0;
+    margin: 0;
+}
+
+.other{
+    width: 10%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    gap: 15px;
+    direction: rtl;
+}
+
+.other a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.other p{
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+}
+
+.other p:hover{
+    transform: translateX(-8px);
+    transition: .5s;
+}
+
+#tag{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 4rem;
+}

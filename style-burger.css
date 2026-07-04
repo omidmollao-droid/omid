@@ -1,0 +1,353 @@
+@font-face{
+    font-family: yekan;
+    src: url("font/yekan-font/yekan-regular.eot") format("eot"),
+    url("font/yekan-font/yekan-regular.ttf") format("ttf"),
+    url("font/yekan-font/yekan-regular.woff") format("woff");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: yekan;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 33rem;
+    background-image: url("image/der-wahre-preis-des-burgers-100~1280x720.avif");
+    background-size: cover;
+    color: white;
+}
+
+main{
+    margin: -1.4rem 0 0 0;
+    width: 100%;
+    height: auto;
+    background-image: url("image/banner-with-fast-food-copy-space-background-generative-ai-free-photo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-image: url("image/footerback.png");
+    background-size: cover;
+    color: white;
+}
+
+.header-option{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(12px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+}
+
+.header-option a{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 8px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    transition: .4s;
+    color: white;
+    text-decoration: none;
+}
+
+.header-option a:hover{
+    transition: .4s;
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    width: 52%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5rem 0 0 0;
+}
+
+.logo h1,h3{
+    margin: 0;
+    padding: 0;
+}
+
+#all-burgers{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0 8rem 0;
+}
+
+.burger-box{
+    min-width: 20rem;
+    min-height: 40rem;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(12px);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.burger-image{
+    width: 18rem;
+    height: auto;
+    margin: 10px 10px 0 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.burger-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: .2s ease-in-out;
+    object-fit: cover;
+    display: block;
+}
+
+.burger-image img:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.burger-box h1{
+    margin: 0;
+    padding: 0;
+}
+
+.burger-box p{
+    padding: 0 18px 0 0;
+    direction: rtl;
+}
+
+.food-info h1{
+    margin: 0;
+}
+
+.add{
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: yekan;
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    align-content: center;
+    margin: 0 0 1.5rem 0;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.add:hover{
+    transition: .4s;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.burger-info{
+    width: 18rem;
+    height: 2rem;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+    direction: rtl;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.burger-info ul{
+    width: 10rem;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+    padding: 0 25px 0 0;
+    margin: 0;
+}
+
+.burger-info ul::before{
+    list-style-type: none;
+}
+
+.plus{
+    width: 3rem;
+    height: 2rem;
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-title{
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    direction: rtl;
+    width: 95%;
+    height: auto;
+}
+
+.footer-title hr{
+    width: 80%;
+}
+
+.comment-box{
+    width: 36%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#comment{
+    width: 25rem;
+    height: 8rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    color: white;
+    font-family: yekan;
+    padding: 10px;
+    direction: rtl;
+}
+
+#comment::placeholder{
+    color: white;
+}
+
+.email-pass{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.email-pass input{
+    width: 11.6rem;
+    height: 1rem;
+    outline: none;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    color: white;
+    font-family: yekan;
+    padding: 10px;
+    direction: rtl;
+}
+
+.email-pass input::placeholder{
+    color: white;
+}
+
+#submit{
+    width: 26.4rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-family: yekan;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(3px);
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transition: .4s;
+    background-color: white;
+    color: black;
+}
+
+.contact-us{
+    width: 18%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+.contact-us p{
+    padding: 0;
+    margin: 0;
+}
+
+.other{
+    width: 10%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    gap: 15px;
+    direction: rtl;
+}
+
+.other a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.other p{
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+}
+
+.other p:hover{
+    transform: translateX(-8px);
+    transition: .5s;
+}
+
+#tag{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 4rem;
+}
